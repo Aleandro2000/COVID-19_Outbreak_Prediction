@@ -86,13 +86,13 @@ with open(way + "deads_prediction.csv", 'w+') as csvfile:
     for i in range(x,x+30):
         writer.writerow([i-x+1, int(logistic(i,param_deads[0],param_deads[1],param_deads[2]))])
 
-plt.subplot(3,1,1)
+plt.subplot(3, 1, 1)
 plt.plot(X, ans_cases, color ='blue', label ="Cases Fitting") 
 plt.legend() 
-plt.subplot(3,1,2)
+plt.subplot(3, 1, 2)
 plt.plot(X, ans_deads, color ='red', label ="Deads Fitting")
 plt.legend() 
-plt.subplot(3,1,3)
+plt.subplot(3, 1, 3)
 plt.plot(X, ans_cases, color ='blue', label ="Cases Fitting") 
 plt.plot(X, ans_deads, color ='red', label ="Deads Fitting")
 plt.legend() 
