@@ -1,1 +1,1 @@
-    This project is realized by Alexandru-Andrei Carmici and Mihai Necula. This python script make chart logistic function prediction and deads and cases count prediction for 30 days.
+    This project is realized by Aleandro2000. This python script make chart logistic function prediction and deads and cases count prediction for 30 days.

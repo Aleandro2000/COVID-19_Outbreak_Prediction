@@ -1,4 +1,4 @@
-#Realized by Alexandru-Andrei Carmici and Mihai Necula
+#Realized by Aleandro2000
 
 import numpy as np
 from scipy.optimize import curve_fit 
